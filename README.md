@@ -1,29 +1,29 @@
-# RCSceneCallKit
+<h1 align="center"> 场景化基础库 </h>
 
-[![CI Status](https://img.shields.io/travis/a1252425/RCSceneCallKit.svg?style=flat)](https://travis-ci.org/a1252425/RCSceneCallKit)
-[![Version](https://img.shields.io/cocoapods/v/RCSceneCallKit.svg?style=flat)](https://cocoapods.org/pods/RCSceneCallKit)
-[![License](https://img.shields.io/cocoapods/l/RCSceneCallKit.svg?style=flat)](https://cocoapods.org/pods/RCSceneCallKit)
-[![Platform](https://img.shields.io/cocoapods/p/RCSceneCallKit.svg?style=flat)](https://cocoapods.org/pods/RCSceneCallKit)
+<p align="center">
+<a href="https://github.com/rongcloud-community/rongcloud-scene-foundation-ios">
+<img src="https://img.shields.io/cocoapods/v/RCSceneFoundation.svg?style=flat">
+</a>
 
-## Example
+<a href="https://github.com/rongcloud-community/rongcloud-scene-foundation-ios">
+<img src="https://img.shields.io/cocoapods/l/RCSceneFoundation.svg?style=flat">
+</a>
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+<a href="https://github.com/rongcloud-community/rongcloud-scene-foundation-ios">
+<img src="https://img.shields.io/cocoapods/p/RCSceneFoundation.svg?style=flat">
+</a>
 
-## Requirements
+<a href="https://github.com/rongcloud-community/rongcloud-scene-foundation-ios">
+<img src="https://img.shields.io/badge/%20in-swift%205-orange.svg">
+</a>
 
-## Installation
+</p>
 
-RCSceneCallKit is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+## 简介
+场景话基础模块，为 App 提供基础服务能力。
 
-```ruby
-pod 'RCSceneCallKit'
+## 集成
+
 ```
-
-## Author
-
-a1252425, shaoshuai@rongcloud.cn
-
-## License
-
-RCSceneCallKit is available under the MIT license. See the LICENSE file for more info.
+pod 'RCSceneFoundation'
+```
