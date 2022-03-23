@@ -10,26 +10,26 @@ import Foundation
 public var isAppStoreAccount: Bool = false
 
 public struct Environment {
-    static var url: URL = URL(string: "https://xxx/")!
+    public static var url: URL = URL(string: "https://xxx/")!
     
-    static var rcKey: String = ""
+    public static var rcKey: String = ""
     
-    static var umengKey: String = ""
+    public static var umengKey: String = ""
     
-    static var buglyKey: String = ""
+    public static var buglyKey: String = ""
     
-    static var MHBeautyKey: String = ""
+    public static var MHBeautyKey: String = ""
  
     /// 请申请您的 BusinessToken：https://rcrtc-api.rongcloud.net/code
-    static var businessToken: String  = ""
+    public static var businessToken: String  = ""
     
     /// Music HIFive
     /// appId
-    static var hiFiveAppId: String = ""
+    public static var hiFiveAppId: String = ""
     
     /// server code
-    static var hiFiveServerCode: String = ""
+    public static var hiFiveServerCode: String = ""
     
     /// server version
-    static var hiFiveServerVersion: String = ""
+    public static var hiFiveServerVersion: String = ""
 }
