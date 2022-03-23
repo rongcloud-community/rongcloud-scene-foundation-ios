@@ -1,0 +1,6 @@
+framework module RCSceneFoundation {
+  umbrella header "RCSceneFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

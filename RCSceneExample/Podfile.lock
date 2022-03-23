@@ -1,0 +1,23 @@
+PODS:
+  - RCSceneFoundation (0.0.1):
+    - SwiftyBeaver
+  - SwiftyBeaver (1.9.5)
+
+DEPENDENCIES:
+  - RCSceneFoundation (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SwiftyBeaver
+
+EXTERNAL SOURCES:
+  RCSceneFoundation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RCSceneFoundation: 202f1441659e5ac01953ef6256cd8c87bcb1a0cd
+  SwiftyBeaver: 84069991dd5dca07d7069100985badaca7f0ce82
+
+PODFILE CHECKSUM: 8911b5ae71ea3d122d3a4b4282c176c29de97483
+
+COCOAPODS: 1.11.3

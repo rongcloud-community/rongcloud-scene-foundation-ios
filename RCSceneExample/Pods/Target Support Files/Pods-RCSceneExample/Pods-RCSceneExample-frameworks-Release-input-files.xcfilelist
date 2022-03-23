@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-RCSceneExample/Pods-RCSceneExample-frameworks.sh
+${BUILT_PRODUCTS_DIR}/RCSceneFoundation/RCSceneFoundation.framework
+${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework
