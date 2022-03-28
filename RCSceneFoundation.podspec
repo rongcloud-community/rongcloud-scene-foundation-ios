@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   
   # 1 - Info
   s.name             = 'RCSceneFoundation'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Scene Foundation'
   s.description      = "All Utils For Scene."
   s.homepage         = 'https://www.rongcloud.cn/devcenter'
