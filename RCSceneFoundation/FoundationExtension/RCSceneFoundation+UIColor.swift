@@ -24,11 +24,19 @@ public extension UIColor {
         let scanner = Scanner(string: hexString)
         
         if hexString.hasPrefix("#") {
-            scanner.currentIndex = hexString.index(hexString.startIndex, offsetBy: 1)
+            if #available(iOS 13.0, *) {
+                scanner.currentIndex = hexString.index(hexString.startIndex, offsetBy: 1)
+            } else {
+                scanner.scanLocation = 1
+            }
             minusLength = 1
         }
         if hexString.hasPrefix("0x") {
-            scanner.currentIndex = hexString.index(hexString.startIndex, offsetBy: 2)
+            if #available(iOS 13.0, *) {
+                scanner.currentIndex = hexString.index(hexString.startIndex, offsetBy: 2)
+            } else {
+                scanner.scanLocation = 2
+            }
             minusLength = 2
         }
         var hexValue: UInt64 = 0
