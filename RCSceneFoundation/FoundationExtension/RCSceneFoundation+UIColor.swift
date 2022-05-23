@@ -1,9 +1,5 @@
-//
-//  UIColor+Extension.swift
-//  RCE
-//
-//  Created by 叶孤城 on 2021/5/13.
-//
+
+/// 颜色能力扩展
 
 import UIKit
 

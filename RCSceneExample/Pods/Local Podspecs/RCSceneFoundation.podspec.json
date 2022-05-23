@@ -1,8 +1,8 @@
 {
   "name": "RCSceneFoundation",
-  "version": "0.0.1",
+  "version": "0.0.2.1",
   "summary": "Scene Foundation",
-  "description": "All Utils For Scene.",
+  "description": "All Foundation For Scene.",
   "homepage": "https://www.rongcloud.cn/devcenter",
   "license": {
     "type": "MIT",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/rongcloud-community/rongcloud-scene-foundation-ios.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2.1"
   },
   "platforms": {
-    "ios": "13.0"
+    "ios": "11.0"
   },
   "swift_versions": "5.0",
   "pod_target_xcconfig": {
@@ -24,6 +24,9 @@
   },
   "source_files": "RCSceneFoundation/**/*",
   "dependencies": {
+    "Moya": [
+
+    ],
     "SwiftyBeaver": [
 
     ]

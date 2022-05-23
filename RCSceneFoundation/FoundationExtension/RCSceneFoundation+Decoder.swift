@@ -1,9 +1,5 @@
-//
-//  JSONDecode+KeyPath.swift
-//  RCE
-//
-//  Created by 叶孤城 on 2021/8/24.
-//
+
+/// 根据路径解析 Data 数据
 
 import Foundation
 

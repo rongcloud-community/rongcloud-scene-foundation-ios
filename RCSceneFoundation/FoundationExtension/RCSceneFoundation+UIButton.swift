@@ -1,11 +1,6 @@
-//
-//  UIButton+Extension.swift
-//  RCE
-//
-//  Created by 叶孤城 on 2021/6/8.
-//
 
-import Foundation
+/// Button 能力扩展
+
 import UIKit
 
 public extension UIButton {

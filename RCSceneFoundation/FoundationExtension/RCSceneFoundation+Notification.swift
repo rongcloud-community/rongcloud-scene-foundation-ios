@@ -1,9 +1,5 @@
-//
-//  Notification+Extension.swift
-//  RCE
-//
-//  Created by shaoshuai on 2021/6/3.
-//
+
+/// 转换事件目标：NotificationCenter default -> Name
 
 import Foundation
 

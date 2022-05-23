@@ -1,9 +1,5 @@
-//
-//  ViewAdaptiveUtil.swift
-//  RCE
-//
-//  Created by 叶孤城 on 2021/4/25.
-//
+
+/// 屏幕适配，屏幕宽度为基准
 
 import UIKit
 
