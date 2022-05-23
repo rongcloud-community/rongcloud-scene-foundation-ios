@@ -1,16 +1,18 @@
 
 import Moya
 
-public let RCSceneServiceLogger: NetworkLoggerPlugin = {
-    let plgn = NetworkLoggerPlugin()
-    plgn.configuration.logOptions = .verbose
-    return plgn
+public let RCSServiceLogger: NetworkLoggerPlugin = {
+    let plugin = NetworkLoggerPlugin()
+    plugin.configuration.logOptions = .verbose
+    return plugin
 }()
 
-public protocol RCServiceType: TargetType {}
-public extension RCServiceType {
+public protocol RCSServiceType: TargetType {}
+public extension RCSServiceType {
     var headers: [String : String]? { [:] }
 }
 
-public typealias RCSceneServiceCompletion = Moya.Completion
-public typealias RCSceneProvider = Moya.MoyaProvider
+public typealias RCSCompletion = Moya.Completion
+public typealias RCSProvider = Moya.MoyaProvider
+public typealias RCSMethod = Moya.Method
+public typealias RCSTask = Moya.Task
